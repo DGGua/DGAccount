@@ -2,7 +2,7 @@ name: run project # workflow名
 on:
   push:
     branches:
-      - master
+      - main
 jobs: # 各个作业
   Dockerize:
     runs-on: ubuntu-latest # 运行环境
