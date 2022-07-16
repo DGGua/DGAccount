@@ -58,5 +58,5 @@ app.post<{}, any, { userId: number; category: string; price: number }>(
   }
 );
 init().then(() => {
-  app.listen(3000);
+  app.listen(80);
 });
